@@ -7,7 +7,7 @@ interface EditScreenInfoProps {
 export const EditScreenInfo: React.FC<EditScreenInfoProps> = ({ path }) => {
   const title = 'Open up the code for this screen:';
   const description =
-    'Change any of the text, save the file, and your app will automatically update.';
+    'Change any of the text, save the file, and your app will automatically update.aaaaaaaaa';
 
   return (
     <View className={styles.container}>
@@ -23,7 +23,7 @@ export const EditScreenInfo: React.FC<EditScreenInfoProps> = ({ path }) => {
 };
 
 const styles = {
-  container: `w-full`,
+  container: `w-full `,
   codeHighlightContainer: `rounded-md px-1`,
   getStartedContainer: `items-center mx-12`,
   getStartedText: `text-lg leading-6 text-center`,
